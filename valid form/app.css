@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 2%, 51%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80hv;
+    margin-top: 150px;
+}
+.container{
+    width: 350px;
+    background-color: #c2cece;
+    border-radius: 8px 60px 15px 25px;
+    overflow: hidden;
+    background-color:0 0 10px #00b3ff, 0 0 30px #00b3ff,0 0 50px #00b3ff ,0 0 90px #00b3ff,0 0 130px #00b3ff;
+}
+.header{
+    background-color:black;
+    padding: 10px 20px;
+}
+h2{
+    color: #fff;
+    font-size: 5sem;
+    font: weigth 700px;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff, 0 0 30px #00b3ff,0 0 50px #00b3ff ,0 0 90px #00b3ff,0 0 130px #00b3ff;
+}
+.form{
+    padding: 20px 40px;
+}
+.form-control{
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px 80px 30px 50px;
+    border: 33px snow;
+}
+.form-control.success input{
+    border: 2px solid rgb(2,19, 2);
+}
+.form-control.error input{
+
+    border: 2px solid rgb(219, 98, 2);
+}
+.form-control small{
+    position: absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+button{
+    
+    color: #fff;
+    background-color:black;
+    font-size: 5sem;
+    border-radius: 44px;
+    font: weigth 700px;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff, 0 0 30px #00b3ff,0 0 50px #00b3ff ,0 0 90px #00b3ff,0 0 130px #00b3ff;
+
+}
+
+
